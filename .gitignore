@@ -37,4 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 _site/
+.sass-cache/
 _config.yml
