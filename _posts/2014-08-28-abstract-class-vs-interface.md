@@ -61,7 +61,7 @@ public class Windows implements PrintToScreen {
 	
 	// do stuff
 
-		public boolean screenEmpty() {
+	public boolean screenEmpty() {
 	// implements screenEmpty()
 	}
 
@@ -74,7 +74,7 @@ public class Browsers implements PrintToScreen {
 	
 	// do stuff
 
-		public boolean screenEmpty() {
+	public boolean screenEmpty() {
 	// implements screenEmpty()
 	}
 
@@ -87,7 +87,7 @@ public class CatPictures implements PrintToScreen {
 	
 	// do stuff
 
-		public boolean screenEmpty() {
+	public boolean screenEmpty() {
 	// implements screenEmpty()
 	}
 
