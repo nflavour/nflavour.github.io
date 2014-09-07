@@ -32,7 +32,7 @@ These names are still quite confusing to me. As of the date of writing, this is 
 `![Alt text]({ {site.url} }/assets/file.ext)` embeds an image from `{ {site.url} }/assets/myface.jpg` is where that image is stored. Do note the usage of `{ {site.url} }`. Liquid automatically transform the double bracket site.url to the variable from `_config.yml`.
 
 Now of course markdown doesn't have a way of specifying image sizes. I definitley don't want my face to be that big. So I'll have to resort to `<img>` tags like so 
-<img src="{{site.url}}assets/myface.jpg" height="50px" />
+<img src="{{site.url}}/assets/myface.jpg" height="50px" />
 
 ### Links ###
 Links are almost identical to images.
