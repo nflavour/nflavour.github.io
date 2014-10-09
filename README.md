@@ -1,6 +1,8 @@
 nflavour.github.io
 ==================
 
+This is my space
+
 ### Blog about everything I learn ###
 
 This is the place where I can go and post random ideas, notes, code, etc. It could be for the public or a reminder for myself in case I need to do this again in the future. And, I've heard this numerous times, writing stuff down helps with remembering them.
