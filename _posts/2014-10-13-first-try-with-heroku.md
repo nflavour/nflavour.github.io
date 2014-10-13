@@ -13,7 +13,7 @@ Setting up redmine locally was very easy. All it took was edit `database.yml` an
 
 I cannot say it was easy to set up on Heroku. There are lots of confusing steps. Especially the whole thing with `Gemfile` and `Gemfile.lock`. There was a point where I couldn't to push to heroku because my `Gemfile.lock` had gems that didn't match Gemfile. Honestly, I'm still new to Ruby, so I have no idea what's going on.
 
-However thanks to this [guide](href="http://www.redmine.org/projects/redmine/wiki/HowTo_Install_Redmine_(%3E_25x)_on_Heroku") I got through it.
+However thanks to this [guide](http://www.redmine.org/projects/redmine/wiki/HowTo_Install_Redmine_(%3E_25x)_on_Heroku) I got through it.
 
 Every step in the guide is as important as another.
 
@@ -63,7 +63,7 @@ heroku run rake redmine:load_default_data
   </li>
 </ol> 
 
-If you are going to use unicorn or something other than webrick (you probably shouldn't use webrick for production server) be sure you follow the proper procedures e.g. [unicorn](href="https://devcenter.heroku.com/articles/rails-unicorn#the-unicorn-server")
+If you are going to use unicorn or something other than webrick (you probably shouldn't use webrick for production server) be sure you follow the proper procedures e.g. [unicorn](https://devcenter.heroku.com/articles/rails-unicorn#the-unicorn-server)
 
 Remember to always run `bundle install` before pushing.
 
