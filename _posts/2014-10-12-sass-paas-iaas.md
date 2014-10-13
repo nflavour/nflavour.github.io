@@ -34,6 +34,7 @@ Iaas would represent the actual server that the Rails application runs on in the
 So I guess I'm looking at a Paas system. I definitely not looking for Saas, and I don't want to be a server administrator. So time to find a Paas service provider.
 
 
-Sources:
+References:
 
-[apprenda](href="http://apprenda.com/library/paas/iaas-paas-saas-explained-compared/")
+[apprenda](href="http://apprenda.com/library/paas/iaas-paas-saas-explained-compared/") <br />
+[rackspace](href="http://www.rackspace.com/knowledge_center/whitepaper/understanding-the-cloud-computing-stack-saas-paas-iaas")
