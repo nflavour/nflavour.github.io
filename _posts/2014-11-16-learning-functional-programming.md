@@ -5,9 +5,7 @@ date: 2014-11-16 23:20:00
 categories: programming
 ---
 
-## Learning Functional Programming ##
-
-** Note: I suspect I will be writing a lot more in the next week or two about Functional Programming and doing it in JavaScript **
+*Note: I suspect I will be writing a lot more in the next week or two about Functional Programming and doing it in JavaScript*
 
 In CS 135 the languate we learned was Scheme, a pure functional programming language (at least that was the restriction from our professor). I've learned imperative programming a long time ago, in Turing and Java. So when I first faced functional programming, I was confused and frustrated. But quickly after I realized the simplicity and elegance in functional programming. However, I never understood a good use for it, and why I would ever want to use functional programming. 
 
@@ -36,6 +34,9 @@ add(5)(6); // returns 11
 {% endhighlight %}
 
 ----
+
 Recently, functional programming has become very popular because of concurrency in distributed systems and multicore processors. All those big data in multiple data centers requires lots of things to run well at the same time, so they can utilize the resources efficiently. Imperative programming has to run functions in sequential order because what if one function changes the value of a variable, the next function may depend on that variable. So side effect in imperative programming is actually a performance hinderance. In functional programming, side effect is not allowed. So you can run a function at the beginning of the program or at the end, it doesn't matter. So, this allows multiple function run together, and the result is still the same. I hope to learn more about concurrency as I study node.js.
+
 ----
+
 Yes I really like JavaScript.
