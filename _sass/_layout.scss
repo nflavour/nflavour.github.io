@@ -281,6 +281,7 @@
         .hobbies {
             border: none;
             display: table;
+            width: 100%;
             .hobby {
                 display: table-cell;
                 padding: 0 1.75em;
@@ -344,5 +345,31 @@
                 width: 50%;
             }
         }
+    }
+}
+
+.projects-table {
+    display: table;
+    width: 100%;
+    font-size: 1.1em;
+    .project-group {
+        display: table-row;
+    }
+    .project-header {
+        display: table-cell;
+        width: 30%;
+        padding: .5em 1em;
+        .project-title {
+            color: #1234dd;
+        }
+        .project-screenshot {
+            height: 100px;
+            width: 100%;
+        }
+    }
+    .project-body {
+        display: table-cell;
+        width: 70%;
+        padding: .5em 1em;
     }
 }
