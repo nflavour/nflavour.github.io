@@ -241,10 +241,37 @@
 .skill-section {
     display: block;
     padding: 10px 0;
+    .myface-small {
+        float: left;
+        width: 150px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        display: block;
+        z-index: 1;
+        border-radius: 10px;
+        box-shadow: -10px 10px 10px #666;
+    }
+    .waterloo-crest {
+        float: right;
+        height: 100px;
+        margin-top: -15px;
+        margin-bottom: -50px;
+    }
+    .work-company-name {
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+    .work-company-logo-wrapper {
+        text-align: center;
+        .work-company-logo {
+            height: 100px;
+        }
+    }
     .skill-section-header {
         width: 100%;
         font-size: 1.5em;
         border-bottom: 1px solid black;
+        margin-bottom: 0.5em;
         color: #1234dd;
         .skill-pill {
             font-size: 0.6em;
@@ -252,6 +279,16 @@
         }
     }
     .skill-section-body {
+        .hobbies {
+            border: none;
+            display: table;
+            .hobby {
+                display: table-cell;
+                padding: 0 1.75em;
+                border: none;
+                text-align: center;
+            }
+        }
     }
     .skill-section-table {
         td, tr {
@@ -272,7 +309,7 @@
     .skill-pill {
         border: 1px solid rgba(80, 0, 200, 0.8);
         border-radius: 5px;
-        padding: 0.4em;
+        padding: 0.25em 0.75em;
         background-color: rgba(80, 0, 200, 0.6);
         color: white;
         font-size: 0.9em;
@@ -281,5 +318,32 @@
     .skill-industry-experience {
         border: 1px solid rgba(40, 200, 50, 0.8);
         background-color: rgba(40, 200, 50, 0.6);
+    }
+    p.about-me {
+        font-size: 1.2em;
+        padding: 1em;
+    }
+    .skill-section-carousel {
+        display: table;
+        .carousel-gutter {
+            width: 5%;
+            display: inline-block;
+        }
+        .carousel-group {
+            width: 30%;
+            display: table-cell;
+            padding-top: 1em;
+            text-align: center;
+            .carousel-title {
+                font-weight: 700;
+                text-align: center;
+            }
+            .carousel-body {
+                text-align: center;
+            }
+            .carousel-body-img {
+                width: 50%;
+            }
+        }
     }
 }
