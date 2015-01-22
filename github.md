@@ -2,7 +2,6 @@
 layout: post
 title: "Github"
 permalink: /github/
+redirect_to:
+  - http://www.github.com/nflavour
 ---
-<script>
-window.location.replace("http://www.github.com/nflavour");
-</script>

@@ -234,3 +234,52 @@
         }
     }
 }
+
+/**
+ * One Page
+ */
+.skill-section {
+    display: block;
+    padding: 10px 0;
+    .skill-section-header {
+        width: 100%;
+        font-size: 1.5em;
+        border-bottom: 1px solid black;
+        color: #1234dd;
+        .skill-pill {
+            font-size: 0.6em;
+            vertical-align: middle;
+        }
+    }
+    .skill-section-body {
+    }
+    .skill-section-table {
+        td, tr {
+            border: 0;
+        }
+        border: 0;
+        width: 100%;
+        tr td:first-child {
+            width: 20%;
+            padding: 0.5em 0 0 1em;
+            vertical-align: top;
+        }
+        tr td:last-child {
+            width: 80%;
+            padding-top: 0.5em;
+        }
+    }
+    .skill-pill {
+        border: 1px solid rgba(80, 0, 200, 0.8);
+        border-radius: 5px;
+        padding: 0.4em;
+        background-color: rgba(80, 0, 200, 0.6);
+        color: white;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+    .skill-industry-experience {
+        border: 1px solid rgba(40, 200, 50, 0.8);
+        background-color: rgba(40, 200, 50, 0.6);
+    }
+}
