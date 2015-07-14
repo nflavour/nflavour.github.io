@@ -245,6 +245,7 @@
         float: left;
         width: 200px;
         margin-right: 1em;
+        margin-bottom: 1em;
         display: block;
         z-index: 1;
         border-radius: 10px;
@@ -319,10 +320,6 @@
     .skill-industry-experience {
         border: 1px solid rgba(0, 100, 0, 0.8);
         background-color: rgba(0, 150, 0, 0.8);
-    }
-    p.about-me {
-        font-size: 1.2em;
-        padding: 1em;
     }
     .skill-section-carousel {
         display: table;
