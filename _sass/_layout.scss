@@ -308,18 +308,18 @@
         }
     }
     .skill-pill {
-        border: 1px solid rgba(80, 0, 200, 0.8);
+        border: 1px solid rgba(#FFAA00, 0.8);
         border-radius: 5px;
         padding: 0.25em 0.75em;
-        background-color: rgba(80, 0, 200, 0.6);
-        color: white;
+        background-color: rgba(#FFAA00, 0.6);
+        color: black;
         font-size: 0.9em;
         line-height: 2;
         font-size: 0.9em;
     }
     .skill-industry-experience {
-        border: 1px solid rgba(0, 100, 0, 0.8);
-        background-color: rgba(0, 150, 0, 0.8);
+        border: 1px solid rgba(#5AFFB8, 0.8);
+        background-color: rgba(#5AFFB8, 0.6);
     }
     .skill-section-carousel {
         display: table;
