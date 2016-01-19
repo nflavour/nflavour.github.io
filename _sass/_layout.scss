@@ -264,7 +264,7 @@
     .work-company-logo-wrapper {
         text-align: center;
         .work-company-logo {
-            height: 100px;
+            height: 80px;
         }
     }
     .skill-section-header {
@@ -298,13 +298,16 @@
         border: 0;
         width: 100%;
         tr td:first-child {
-            width: 20%;
-            padding: 0.5em 0 0 1em;
+            width: 18%;
+            padding: 0.5em 0 0 0.5em;
             vertical-align: top;
         }
         tr td:last-child {
-            width: 80%;
+            width: 82%;
             padding-top: 0.5em;
+        }
+        .resume-bullets {
+            font-size: 0.95em;
         }
     }
     .skill-pill {
